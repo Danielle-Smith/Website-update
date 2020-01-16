@@ -1,0 +1,51 @@
+.contact_info_body {
+    height: 904px;
+    font-family: "open sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.info_wrapper {
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 50px 30px;
+    margin-top: 220px;
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.88);
+    margin-bottom: 295px;
+    width: 100vw;
+}
+
+.contact_info_body .info_wrapper p {
+    color: white;
+    font-size: 3.8em;
+    margin: 0px;
+}
+
+.icons {
+    display: flex;
+
+}
+.info_wrapper .contact_github_icon i{
+    color: rgba(179, 175, 175, 0.913);
+    font-size: 4em;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.info_wrapper .contact_github_icon i:hover {
+    color: white;
+}
+
+.info_wrapper .contact_linkedin_icon i{
+    color: rgba(179, 175, 175, 0.913);
+    font-size: 4em;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.info_wrapper .contact_linkedin_icon i:hover {
+    color: white;
+}

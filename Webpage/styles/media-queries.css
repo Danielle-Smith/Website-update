@@ -1,0 +1,98 @@
+@media (max-width: 1700px) {
+    /* homepage */
+    .coffee-image {
+        width: 700px;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+        height: 1210px;
+    }
+    .card .my-info {
+        margin: 0px;
+        width: 700px;
+        grid-template-rows: 45% 10% 45%;
+    }
+
+    .card .my-info h1, .card .my-info h2{
+        padding-left: 20px;
+    }
+
+    .card .my-info .paragraph {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .logo {
+        text-align: center;
+    }
+}
+@media (max-width: 830px) {
+    .navbar-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .link-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .left-column {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .right-column {
+        justify-content: center;
+    }
+
+    h5 {
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+
+   .contact_info_body .info_wrapper p {
+       font-size: 25px;
+       margin-left: 0px;
+       margin-right: 0px;
+   }
+
+   .coffee-image {
+        width: 400px;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+        height: 1210px;
+    }
+
+    .card .my-info {
+        margin: 0px;
+        width: 400px;
+        grid-template-rows: 35% 10% 45%;    
+    }
+
+    .card .my-info h1, .card .my-info h2{
+        padding-left: 10px; 
+    }
+
+    h4 {
+        margin: 10px;
+    }
+    
+    .body-wrapper {
+        background-image: none;
+    }
+
+    .info_wrapper {
+        margin-top: 100px;
+    }
+
+    .list {
+        padding-top: 40px;
+    }
+}

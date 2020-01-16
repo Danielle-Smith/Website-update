@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.logo {
+    padding: 10px 0px 0px 20px;
+    color: rgba(179, 175, 175, 0.913);
+}
+.logo img {
+    height: 50px;
+    color: rgba(179, 175, 175, 0.913);
+}
+
+.link-wrapper {
+    display: flex; 
+    justify-content: space-between;
+    flex: auto;
+}
+
+.link {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.navbar-wrapper .link a:hover {
+    color: rgba(179, 175, 175, 0.913);
+    letter-spacing: 2px;
+}
+
+.left-column {
+    display: flex;
+}
+
+.navbar-wrapper .github-icon {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.navbar-wrapper .github-icon a {
+    color: black;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.navbar-wrapper .github-icon a:hover {
+    color: rgba(179, 175, 175, 0.913);
+}
+
+.navbar-wrapper .linkedin-icon {
+    font-size: 2em;
+}
+
+.navbar-wrapper .linkedin-icon a {
+    color: black;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.navbar-wrapper .linkedin-icon a:hover {
+    color: rgba(179, 175, 175, 0.913);
+}
+.right-column {
+    display: flex;
+    padding: 10px;
+    margin-top: 4px;
+}

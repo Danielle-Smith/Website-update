@@ -1,0 +1,34 @@
+.body-wrapper {
+    background-image: url(../images/Modern-laptop-computer-on-white-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+h5 {
+    color: white;
+    background-color: #2D2D2D;
+    font-size: 70px;
+    letter-spacing: 1px;
+    margin: 0px 0px 55px 0px;
+    height: fit-content;
+    padding: 0px 35px 8px 35px;
+    text-align: center;
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.88);
+}
+
+h4 {
+    color: #2D2D2D;
+    font-size: 2.1em;
+    letter-spacing: 1px;
+    padding: 4px; 
+}
+
